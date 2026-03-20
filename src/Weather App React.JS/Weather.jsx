@@ -81,7 +81,7 @@ function Weather() {
             <div className={cardClass}>
                 {/* Search */}
                 <div className={searchWrapperClass}>
-                    <input className={searchInputClass} value={input} onChange={(e) => setInput(e.target.value)} placeholder="Search city..." />
+                    <input className={searchInputClass} value={input} onChange={(e) => setInput(e.target.value)} placeholder="Search place..." />
                     <span className={searchIconClass} onClick={weatherApp}><FaSearch size={20} /></span>
                 </div>
 
