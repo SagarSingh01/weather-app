@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaSearch } from "react-icons/fa";
 import { FcSearch } from "react-icons/fc";
 import { WiHumidity, WiStrongWind } from "react-icons/wi";
@@ -14,9 +14,9 @@ function Weather() {
     // Tailwind class variables
 
     // 1. Container
-    const containerClass = "min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#020617]"; 
+    const containerClass = "min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#020617]";
     const cardClass = "w-full max-w-md rounded-3xl border-2 border-blue-300/30 bg-blue-900/80 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,140,255,0.25)] p-6 text-white transition-all duration-500 hover:scale-[1.02] hover:shadow-[0_0_40px_rgba(0,200,255,0.6)]";
-    
+
     // 2. Search Bar
     const searchWrapperClass = "flex items-center w-full max-w-md mx-auto bg-gradient-to-r from-white/90 to-white/70 rounded-full px-3 sm:px-4 py-2 shadow-inner border border-white/40 focus-within:ring-2 focus-within:ring-cyan-300 transition-all";
     const searchInputClass = "flex-1 min-w-0 bg-transparent text-gray-800 outline-none text-base sm:text-lg placeholder-gray-500 px-2";
@@ -74,7 +74,7 @@ function Weather() {
             catch (error) {
                 setTimeout(() => {
                     setLoading(false)
-                }, 2000);
+                }, 1800);
                 setError(error.response.data.error.message);
             }
 
@@ -89,7 +89,7 @@ function Weather() {
             <div className={cardClass}>
                 {/* Search */}
                 <div className={searchWrapperClass}>
-                    <input className={searchInputClass} value={input} onChange={(e) => setInput(e.target.value)} placeholder="Search place..." />
+                    <input className={searchInputClass} value={input} onKeyDown={(e) => e.key === "Enter" && weatherApp()} onChange={(e) => setInput(e.target.value)} placeholder="Search place..." />
                     <span className={searchIconClass} onClick={weatherApp}><FaSearch size={20} /></span>
                 </div>
 
@@ -138,4 +138,4 @@ function Weather() {
     </>
 }
 
-export default Weather
+export default Weather;
