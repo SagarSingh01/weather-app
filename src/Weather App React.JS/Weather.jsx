@@ -127,4 +127,4 @@ function Weather() {
     </>
 }
 
-export default Weather;
+export default Weather

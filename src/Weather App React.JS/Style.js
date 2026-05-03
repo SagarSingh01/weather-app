@@ -38,4 +38,4 @@ const Style = {
     infoValueClass: "text-lg font-bold text-cyan-300 mt-1 drop-shadow-[0_0_10px_rgba(0,255,255,0.8)]"
 };
 
-export default Style;
+export default Style
