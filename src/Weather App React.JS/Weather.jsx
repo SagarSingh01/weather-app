@@ -17,38 +17,27 @@ function Weather() {
     
     async function weatherApp() {
 
-        if (input === "") {
-            setLoading(true)
-            setTimeout(() => {
-                setLoading(false)
-            }, 1500);
+        if (input.trim() === "") {
             setError("Search City");
+            return
         }
-
-        else {
 
             try {
                 setLoading(true);
-                setTimeout(() => {
-                    setLoading(false)
-                }, 2000);
-                setError("Search City");
                 const res = await axios.get(`https://api.weatherapi.com/v1/current.json?key=ab5b58beed904cc79fd65013261802&q=${input}&aqi=yes`);
                 setError("");
                 setData(res.data);
             }
 
             catch (error) {
-                setTimeout(() => {
-                    setLoading(false)
-                }, 1800);
+                setLoading(true);
                 setError(error.response.data.error.message);
             }
 
             finally {
                 setInput("");
+                setLoading(false);
             }
-        }
     }
 
     return <>
