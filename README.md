@@ -99,14 +99,6 @@ This project demonstrates:
 - Component-Based Architecture
 - Data Fetching and Rendering
 
-## 📈 Future Improvements
-
-- 7-Day Forecast
-- Hourly Forecast
-- Dark/Light Mode
-- Geolocation Support
-- Weather Maps
-- Multiple City Tracking
 
 ## 🤝 Connect With Me
 
