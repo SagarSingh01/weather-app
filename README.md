@@ -1,16 +1,121 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive weather application built with React and Vite that provides real-time weather updates, temperature forecasts, humidity levels, wind speed, and location-based weather information through a clean and intuitive user interface.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+weather-app-six-bice-56.vercel.app
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌍 Search weather by city name
+- 🌡️ Real-time temperature updates
+- 💧 Humidity information
+- 💨 Wind speed tracking
+- ☁️ Weather condition display
+- 📍 Location-based weather data
+- ⚡ Fast and responsive performance
+- 🎨 Modern UI design
+- 📱 Mobile-friendly layout
+- 🔄 Dynamic weather updates
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1082" height="871" alt="image" src="https://github.com/user-attachments/assets/378c9da1-3d22-4042-b4bd-19991cb0266e" />
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+### Libraries
+- Axios
+- React Icons
+
+### API
+- OpenWeather API
+
+### Tools & Platforms
+- Vite
+- Git
+- GitHub
+- Vercel
+
+## ⚙️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/weatherly.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd weatherly
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start development server
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+## 🌦️ Weather Information Provided
+
+- Current Temperature
+- Feels Like Temperature
+- Humidity
+- Wind Speed
+- Weather Conditions
+- City & Country Information
+- Weather Icons
+
+## 🎯 Learning Outcomes
+
+This project demonstrates:
+
+- API Integration
+- React Hooks
+- State Management
+- Async JavaScript
+- Error Handling
+- Responsive Design
+- Component-Based Architecture
+- Data Fetching and Rendering
+
+## 📈 Future Improvements
+
+- 7-Day Forecast
+- Hourly Forecast
+- Dark/Light Mode
+- Geolocation Support
+- Weather Maps
+- Multiple City Tracking
+
+## 🤝 Connect With Me
+
+Feel free to connect with me for collaboration, discussions, or opportunities in web development.
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star on GitHub.
+
+---
+
+Made with ❤️ using React & Vite
