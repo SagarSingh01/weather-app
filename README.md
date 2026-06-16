@@ -21,7 +21,7 @@ https://weather-app-six-bice-56.vercel.app
 
 ## 📸 Preview
 
-<img width="1082" height="871" alt="image" src="https://github.com/user-attachments/assets/378c9da1-3d22-4042-b4bd-19991cb0266e" />
+<img width="1913" height="892" alt="image" src="https://github.com/user-attachments/assets/6e67debf-0694-4221-acbe-1484725523ce" />
 
 ## 🛠️ Tech Stack
 
