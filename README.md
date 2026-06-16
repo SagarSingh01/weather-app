@@ -9,6 +9,7 @@ https://weather-app-six-bice-56.vercel.app
 ## ✨ Features
 
 - 🌍 Search weather by city name
+- 🔍 Live city suggestions
 - 🌡️ Real-time temperature updates
 - 💧 Humidity information
 - 💨 Wind speed tracking
