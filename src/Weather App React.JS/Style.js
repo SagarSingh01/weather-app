@@ -1,12 +1,10 @@
-// Style.js
-
 const Style = {
     containerClass: "min-h-screen flex items-center justify-center p-4 bg-[radial-gradient(circle_at_10%_20%,rgba(0,255,255,0.15),transparent_40%),radial-gradient(circle_at_90%_80%,rgba(139,92,246,0.15),transparent_40%),linear-gradient(to_br,#020617,#020617,#000000)]",
 
     cardClass: "relative w-full max-w-md rounded-[28px] border border-cyan-500 bg-[#020617]/90 backdrop-blur-xl shadow-[0_0_60px_rgba(0,255,255,0.15)] p-6 text-white transition-all duration-500 hover:scale-[1.03] hover:shadow-[0_0_80px_rgba(0,255,255,0.4)]",
 
     searchWrapperClass: "flex items-center w-full max-w-md mx-auto bg-[#020617]/80 rounded-full px-3 sm:px-4 py-2 sm:py-3 border border-cyan-400/30 focus-within:border-cyan-300 focus-within:shadow-[0_0_15px_rgba(0,255,255,0.6)] transition-all duration-300 overflow-hidden",
-    searchInputClass:  "flex-1 min-w-0 bg-transparent text-cyan-100 placeholder-gray-400 outline-none text-sm sm:text-lg px-2",
+    searchInputClass: "flex-1 min-w-0 bg-transparent text-cyan-100 placeholder-gray-400 outline-none text-sm sm:text-lg px-2",
     searchIconClass: "flex-shrink-0 text-cyan-400 cursor-pointer transition-all duration-300 hover:scale-125 hover:text-white hover:drop-shadow-[0_0_10px_cyan] text-base sm:text-lg",
 
     loadingWrapperClass: "h-64 flex flex-col items-center justify-center gap-4",
@@ -35,7 +33,23 @@ const Style = {
     windHoverClass: "hover:border-purple-400 hover:shadow-[0_0_25px_rgba(180,0,255,0.6)]",
 
     infoLabelClass: "text-xs tracking-widest text-gray-400 uppercase",
-    infoValueClass: "text-lg font-bold text-cyan-300 mt-1 drop-shadow-[0_0_10px_rgba(0,255,255,0.8)]"
+    infoValueClass: "text-lg font-bold text-cyan-300 mt-1 drop-shadow-[0_0_10px_rgba(0,255,255,0.8)]",
+
+    suggestionWrapperClass: "absolute top-[75px] left-0 right-0 z-50 rounded-2xl overflow-hidden border border-cyan-400/20 bg-[#020617]/95 backdrop-blur-xl shadow-[0_0_25px_rgba(0,255,255,0.15)]",
+
+    suggestionItemClass: "group relative flex items-center justify-between px-4 py-3 cursor-pointer border-b border-cyan-500/10 last:border-b-0 transition-all duration-300 hover:bg-gradient-to-r hover:from-cyan-500/10 hover:to-purple-500/10 hover:pl-6",
+
+    suggestionContentClass: "flex items-center gap-3",
+
+    suggestionIconClass: "w-8 h-8 flex items-center justify-center rounded-full bg-cyan-500/10 border border-cyan-400/20 text-cyan-300 transition-all duration-300 group-hover:bg-cyan-500/20 group-hover:scale-110",
+
+    suggestionTextWrapperClass: "flex flex-col",
+
+    suggestionCityClass: "font-medium tracking-wide text-cyan-100 transition-colors duration-300 group-hover:text-white",
+
+    suggestionCountryClass: "text-xs text-cyan-400/70 transition-colors duration-300 group-hover:text-cyan-300",
+
+    suggestionArrowClass: "text-cyan-400/40 transition-all duration-300 group-hover:text-cyan-300 group-hover:translate-x-1",
 };
 
 export default Style

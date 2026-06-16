@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 body {
-    background: linear-gradient(270deg, #020617, #000000, #020617);
+    background: linear-gradient(270deg, #040f3e, #000000, #020617);
     background-size: 400% 400%;
-    animation: gradientShift 5s ease infinite;
+    animation: gradientShift 10s ease infinite;
 }
 
 @keyframes gradientShift {
