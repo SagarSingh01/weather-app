@@ -4,7 +4,7 @@ A modern and responsive weather application built with React and Vite that provi
 
 ## 🚀 Live Demo
 
-weather-app-six-bice-56.vercel.app
+https://weather-app-six-bice-56.vercel.app
 
 ## ✨ Features
 
